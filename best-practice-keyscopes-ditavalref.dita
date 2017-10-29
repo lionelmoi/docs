@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_yrx_bhy_rbb">
+    <title>Using keys, keyscopes along with branch-filtering</title>
+    <shortdesc>DITA 1.3 introduced <xref keyref="dita13-spec-branch-filter">Branch filtering</xref> and <xref
+            keyref="dita13-spec-keyscopes">Key scopes</xref>. Using both at the same type can be tricky since the DITA
+        Open Toolkit, while implementing the specification, does it in a specific way.</shortdesc>
+    <refbody>
+        <section id="section_dbg_nhy_rbb">
+            <title>Branch filtering</title>
+            <p>The <xref keyref="dita13-spec"/> define Branch filtering as a "mechanism [that] enables map authors to
+                set filtering conditions for specific branches of a map. This makes it possible for multiple
+                conditional-processing profiles to be applied within a single publication."</p>
+            <p>What it means is you can filter different parts of your maps with different ditaval filter files. </p>
+            <p>Additionally, the "<codeph>&lt;ditavalref></codeph> element also provides the ability to process a single
+                branch of content multiple times, applying unique conditions to each instance of the branch."</p>
+            <p>Adding several <codeph>&lt;ditavalref></codeph> under a <codeph>&lt;topicref></codeph> creates an equal
+                number of additional output.</p>
+            <p>Each <codeph>&lt;ditavalref></codeph> can define </p>
+        </section>
+    </refbody>
+</reference>

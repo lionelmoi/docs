@@ -6,6 +6,8 @@
   <topicmeta>
     <shortdesc>Provides key definitions for each DITA topic in the repository.</shortdesc>
   </topicmeta>
+  <keydef keys="best-pratice" href="../best-practice.dita"/>
+  <topicref href="../best-practice-keyscopes-ditavalref.dita"/>
   <keydef keys="alternative-input-formats" href="../user-guide/alternative-input-formats.dita"/>
   <keydef keys="markdown-input" href="../user-guide/markdown-input.dita"/>
   <keydef keys="lwdita-input" href="../user-guide/lwdita-input.dita"/>
@@ -169,9 +171,11 @@
   <!-- Generated topics; this list should probably be generated automatically when all targets are valid -->
   <keydef keys="all-extension-points" href="../extension-points/all-extension-points.dita"/>
   <keydef keys="extension-points-in-org.dita.base" href="../extension-points/extension-points-in-org.dita.base.dita"/>
-  <keydef keys="extension-points-in-org.dita.eclipsehelp" href="../extension-points/extension-points-in-org.dita.eclipsehelp.dita"/>
+  <keydef keys="extension-points-in-org.dita.eclipsehelp"
+    href="../extension-points/extension-points-in-org.dita.eclipsehelp.dita"/>
   <keydef keys="extension-points-in-org.dita.html5" href="../extension-points/extension-points-in-org.dita.html5.dita"/>
-  <keydef keys="extension-points-in-org.dita.htmlhelp" href="../extension-points/extension-points-in-org.dita.htmlhelp.dita"/>
+  <keydef keys="extension-points-in-org.dita.htmlhelp"
+    href="../extension-points/extension-points-in-org.dita.htmlhelp.dita"/>
   <keydef keys="extension-points-in-org.dita.pdf2" href="../extension-points/extension-points-in-org.dita.pdf2.dita"/>
   <keydef keys="extension-points-in-org.dita.troff" href="../extension-points/extension-points-in-org.dita.troff.dita"/>
   <keydef keys="extension-points-in-org.dita.xhtml" href="../extension-points/extension-points-in-org.dita.xhtml.dita"/>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="good-practice">
+    <title>Best practices</title>
+    <shortdesc>Some advice on creating good content/structures for the DITA Open Toolkit. This does not constitutes an
+        official source on DITA, only some information to understand the way the toolkit processes DITA
+        content.</shortdesc>
+</reference>
